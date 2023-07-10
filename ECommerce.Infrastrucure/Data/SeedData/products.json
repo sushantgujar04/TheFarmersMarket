@@ -1,0 +1,32 @@
+[
+	{
+		"Name": "Chai",
+		"Code": "CH1",
+		"Price": 3.11,
+		"CurrencyCodeId": 1
+	},
+	{
+		"Name": "Apples",
+		"Code": "AP1",
+		"Price": 6.0,
+		"CurrencyCodeId": 1
+	},
+	{
+		"Name": "Coffee",
+		"Code": "CF1",
+		"Price": 11.23,
+		"CurrencyCodeId": 1
+	},
+	{
+		"Name": "milk",
+		"Code": "MK1",
+		"Price": 4.75,
+		"CurrencyCodeId": 1
+	},
+	{
+		"Name": "Oatmeal",
+		"Code": "OM1",
+		"Price": 3.69,
+		"CurrencyCodeId": 1
+	}
+]

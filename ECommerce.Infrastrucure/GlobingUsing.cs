@@ -1,0 +1,17 @@
+﻿global using ECommerce.Core.Entities;
+global using ECommerce.Core.Exceptions;
+global using ECommerce.Core.Interfaces.Repository;
+global using ECommerce.Core.Interfaces.Services;
+global using ECommerce.Core.Interfaces.Specifications;
+global using ECommerce.Core.Services;
+global using ECommerce.Infrastrucure.Data;
+global using ECommerce.Infrastrucure.Repositories;
+global using ECommerce.Infrastrucure.Specifications;
+global using FluentValidation;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.DependencyInjection;
+global using StackExchange.Redis;
+global using System.Reflection;

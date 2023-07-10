@@ -1,0 +1,22 @@
+[
+  {
+    "Code": "BOGO",
+    "Description": "Buy-One-Get-One-Free Special on Coffee.",
+    "Limit": -1
+  },
+  {
+    "Code": "APPL",
+    "Description": "If you buy 3 or more bags of Apples, the price drops to $4.50",
+    "Limit": -1
+  },
+  {
+    "Code": "CHMK",
+    "Description": "Purchase a box of Chai and get milk free. ",
+    "Limit": 1
+  },
+  {
+    "Code": "APOM",
+    "Description": "Purchase a bag of Oatmeal and get 50% off a bag of Apples",
+    "Limit": 1
+  }
+]
