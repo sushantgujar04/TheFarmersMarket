@@ -12,11 +12,13 @@ public class OfferItemRepository : IOfferItemRepository
         this._context = context;
     }
 
-    public  Task<IReadOnlyList<OfferItem>> GetOffersAsync(int offerId)
+    public async  Task<IReadOnlyList<OfferItem>> GetOffersAsync()
     {
         // return (Task<IReadOnlyList<OfferItem>>)this._context.OfferItems.Select(x => x.OfferId == offerId);
-        return (Task<IReadOnlyList<OfferItem>>)_context.OfferItems.Where(x => x.OfferId == offerId);
+        return await _context.OfferItems.ToListAsync<OfferItem>();
     }
 
-   
+
+    
+
 }
