@@ -2,6 +2,6 @@
 
 public interface IOfferItemRepository
 {
-    Task<IReadOnlyList<OfferItem>> GetOffersAsync(int offerId);
+    Task<IReadOnlyList<OfferItem>> GetOffersAsync();
 
 }

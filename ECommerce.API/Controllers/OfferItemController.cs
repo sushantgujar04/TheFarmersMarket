@@ -22,9 +22,9 @@ namespace ECommerce.API.Controllers
 
         #region Display List of Product With Filters
         [HttpGet("{offerid}")]
-        public async Task<IActionResult> GetAllOffersItems(int offerid)
+        public async Task<IActionResult> GetAllOffersItems()
         {
-            var result = await offerItemService.GetAllOffersItemsAsync(offerid);
+            var result = await offerItemService.GetAllOffersItemsAsync();
             return StatusCode(result.StatusCode, result);
         }
         #endregion

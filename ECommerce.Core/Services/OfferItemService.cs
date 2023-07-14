@@ -11,11 +11,11 @@ public class OfferItemService : BaseGenericResultHandler, IOfferItemService
         _mapper = mapper;
     }
 
-    public async Task<BaseGenericResult<IReadOnlyList<OfferItemDto>>> GetAllOffersItemsAsync(int offerid)
+    public async Task<BaseGenericResult<IReadOnlyList<OfferItemDto>>> GetAllOffersItemsAsync()
     {
         try
         {
-            var result = await _unitOfWork.OfferItemRepository.GetOffersAsync(offerid);
+            var result = await _unitOfWork.OfferItemRepository.GetOffersAsync();
             var ListDto = _mapper.Map<IReadOnlyList<OfferItemDto>>(result);
 
             return Success(ListDto);
@@ -27,4 +27,5 @@ public class OfferItemService : BaseGenericResultHandler, IOfferItemService
         }
     }
 
+    
 }
