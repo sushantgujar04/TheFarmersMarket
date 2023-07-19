@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ECommerce.API.Test
 {
-    internal class OfferItemServiceFake : IOfferItemService
+    public class OfferItemServiceFake : IOfferItemService
     {
         public Task<BaseGenericResult<IReadOnlyList<OfferItemDto>>> GetAllOfferItemsAsync()
         {
