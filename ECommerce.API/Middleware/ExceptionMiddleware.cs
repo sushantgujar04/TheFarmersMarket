@@ -3,6 +3,7 @@ using System.Text.Json;
 
 namespace ECommerce.API.Middleware
 {
+    /// ExceptionMiddleware
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate _next;
